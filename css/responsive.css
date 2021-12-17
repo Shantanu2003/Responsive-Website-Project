@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1020px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li {
+        padding: 12px;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .ContactForm{
+        margin: 25px;
+    }
+    .form{
+        max-width: 62%;
+        margin: 30px auto;
+        font-size: 19px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #SearchBar{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .sectionRight{
+        flex-direction: column-reverse;
+    }
+    .sectionLeft{
+        flex-direction: column-reverse;
+    }
+    .ContactUs{
+        margin: 35px auto;
+        height:100%;
+    flex-direction: column-reverse;
+}
+.text-big{
+    text-align: center;
+}
+.text-small{
+    text-align: center;
+}
+.imgFluid{
+    width: 100%;
+    margin: auto;
+}
+.send{
+    margin: -20px 115px;
+    width: 20%;
+    font-size: 6px;
+}
+.para{
+    padding: 0px;
+    text-align: center;
+}
+.name{
+    font-size: 9px;
+}
+.send{
+    margin: auto;
+}
+}

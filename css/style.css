@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Mali:wght@300&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor:pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 43px 23px; 
+}
+.nav-list li a{
+text-decoration: none;
+color:wheat;
+}
+.nav-list li a:hover{
+    color:goldenrod;
+    }
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70%;
+    align-items:flex-start;
+    border: 3px solid goldenrod;
+    border-radius: 70px;
+}
+#SearchBar{
+    padding: 4px;
+    border-radius: 23px;
+    border: 4px solid lightseagreen;
+    font-size: 15px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(file:///D:/SHANTANU/Eats/images/bgd.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+.navbar.background{
+    background:black;
+    border: 3px solid goldenrod;
+}
+.firstSection{
+    height: 400vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 20%;
+}
+.firsthalf{
+width: 75%;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.secondhalf{
+    width: 40%;
+}
+.secondhalf img{
+    width: 100%;
+    padding: 0px 0;
+    border: 3px solid rgba(247, 211, 9, 0.734);
+   border-radius: 30px;
+   display: flex;
+   margin: auto;
+}
+.text-big{
+    font-size: 35px;
+    font-family: 'Mali', cursive;
+}
+.text-small{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.text-big:hover{
+    color: rgba(255, 217, 0, 0.542);
+}
+.text-small:hover{
+    color: rgba(255, 217, 0, 0.542);
+}
+.btn{
+    background: black;
+    padding: 8px 20px;
+    border: 2px solid rgba(255, 217, 0, 0.542);
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+    margin: 7px 3px;
+    border-radius: 20px;
+}
+.btn:hover{
+    color:gold
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.sectionTag .text-big{
+    font-family: 'Mali', cursive;
+}
+.sectionRight{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    max-width: 80%; 
+    margin: auto;
+    font-family: 'Mali', cursive;
+}
+.para{
+    padding: 0px 72px;
+    background:black;
+    color:wheat;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+}
+.sectionLeft{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    max-width: 80%; 
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 16px 10px;
+}
+.sectionTag:hover{
+    color: goldenrod;
+}
+.sectionSubTag{
+    font-family: 'Dancing Script', cursive;
+    transition: 0.8s;
+}
+.sectionSubTag:hover{
+    color: goldenrod;
+}
+.imgFluid{
+width: 290px;
+border: 3px solid goldenrod;
+border-radius: 50px;
+margin: 19px;
+cursor: pointer;
+transition: 0.8s;
+}
+.imgFlui{
+    width: 290px;
+    border: 3px solid goldenrod;
+    border-radius: 50px;
+    margin: 49px;
+    cursor: pointer;
+    transition: 0.5s;
+    justify-content: space-evenly;
+    background: transparent;
+    }
+.imgFlui:hover{
+ background: goldenrod;
+}
+.thumbnail{
+    text-align: center;
+}
+.ContactUs{
+    padding: 40px 42px;
+    background: black;
+    color: wheat;
+    max-width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0px 150px;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+    height: 300px;
+    flex-direction: row-reverse;
+}
+.ContactForm{
+    background: black;
+    color: wheat;
+    font-family: 'Mali', cursive;
+    font-size: 20px;height: 40vh;
+    border: 3px solid goldenrod;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin: 40px 180px;
+    height: 620px;
+}
+.name{
+    max-width: 70%;
+    margin: 25px auto;
+    width: 300%;
+    padding: 5px;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    font-size: 19px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    display: flex;
+}
+.feedback{
+    max-width: 1200px;
+    margin: 30px 395px;
+    width: 100%;
+    padding: 25px 10px;
+    border: 3px solid goldenrod;
+    border-radius: 40px;
+    font-size: 19px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    display: flex;
+}
+.form:hover{
+    color: goldenrod;
+}
+.send{
+    max-width: 204px;
+    margin: 30px 555px;
+    width: 100%;
+    padding: 2px;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    font-size: 19px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    display: flex;    
+    background: black;
+    color: wheat;
+    cursor: pointer;
+}
+form.submit{
+    border-color: transparent;
+    color:orange;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 20%;
+    height: 50px;
+    margin-top: 20px;
+}
+.copy{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+.burger{
+    display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top:15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
